@@ -1,16 +1,17 @@
 {
-  "name": "auto-assign",
+  "name": "openapi-git-flow",
   "version": "1.0.0",
-  "description": "A Probot app that adds reviewers to pull requests when pull requests are opened.",
-  "author": "Kentaro Matsushita <kentaro.m811@gmail.com>",
+  "description": "A Probot app to run CI-CD flows on openapi over git.",
+  "author": "Dina Vinter <dina.vintr@gmail.com>",
   "license": "ISC",
-  "repository": "https://github.com/kentaro-m/auto-assign.git",
-  "homepage": "https://github.com/kentaro-m/auto-assign",
-  "bugs": "https://github.com/kentaro-m/auto-assign/issues",
+  "repository": "https://github.com/dinavinter/probot-oai.git",
+  "homepage": "https://github.com/dinavinter/probot-oai",
+  "bugs": "https://github.com/dinavinter/probot-oai/issues",
   "keywords": [
     "probot",
     "github",
-    "probot-app"
+    "probot-app",
+    "openapi"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
